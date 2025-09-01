@@ -1,0 +1,22 @@
+{
+  "name": "nsingla-cluster",
+  "cloudProvider": "aws",
+  "region": {
+    "id": "us-east-1"
+  },
+  "version": {
+    "channelGroup": "stable"
+  },
+  "nodes": {
+    "compute": 3,
+    "computeMachineType": "m5.2xlarge"
+  },
+  "fips": true,
+  "multiAz": false,
+  "team": "data-science-pipelines",
+  "awsCredentials": {
+    "accessKeyId": "YOUR_AWS_ACCESS_KEY_ID",
+    "secretAccessKey": "YOUR_AWS_SECRET_ACCESS_KEY",
+    "accountId": "YOUR_AWS_ACCOUNT_ID"
+  }
+}

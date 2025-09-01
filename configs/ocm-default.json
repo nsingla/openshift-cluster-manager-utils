@@ -1,0 +1,6 @@
+{
+  "token": "YOUR_OCM_TOKEN",
+  "platform": "stage",
+  "cliBinaryUrl": "https://github.com/openshift-online/ocm-cli/releases/latest/download/ocm-linux-amd64",
+  "verboseLevel": 0
+}

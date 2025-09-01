@@ -1,0 +1,29 @@
+{
+  "name": "my-gcp-cluster",
+  "cloudProvider": "gcp",
+  "region": {
+    "id": "us-central1"
+  },
+  "version": {
+    "channelGroup": "stable"
+  },
+  "nodes": {
+    "compute": 2,
+    "computeMachineType": "custom-8-32768"
+  },
+  "fips": false,
+  "multiAz": false,
+  "team": "data-science",
+  "gcpCredentials": {
+    "projectId": "YOUR_GCP_PROJECT_ID",
+    "privateKeyId": "YOUR_PRIVATE_KEY_ID",
+    "privateKey": "YOUR_PRIVATE_KEY",
+    "clientId": "YOUR_CLIENT_ID",
+    "clientEmail": "YOUR_SERVICE_ACCOUNT_EMAIL",
+    "clientX509CertUrl": "YOUR_CLIENT_CERT_URL",
+    "authType": "service_account",
+    "authUri": "https://accounts.google.com/o/oauth2/auth",
+    "tokenUri": "https://oauth2.googleapis.com/token",
+    "authProviderX509CertUrl": "https://www.googleapis.com/oauth2/v1/certs"
+  }
+}

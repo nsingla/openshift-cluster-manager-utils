@@ -1,0 +1,6 @@
+{
+  "name": "gpunode",
+  "instanceType": "g4dn.xlarge",
+  "nodeCount": 1,
+  "reuseExisting": true
+}

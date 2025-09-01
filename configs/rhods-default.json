@@ -1,0 +1,5 @@
+{
+  "notificationEmail": "admin@example.com",
+  "addonName": "managed-odh",
+  "installDependencies": true
+}
