@@ -9,6 +9,7 @@ wheels/
 # All `.` directories
 .*
 
+**/ocm-default.json
 **/cluster-default.json
 uv.lock
 
