@@ -6,5 +6,8 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# All `.` directories
+.*
+
+**/cluster-default.json
+
